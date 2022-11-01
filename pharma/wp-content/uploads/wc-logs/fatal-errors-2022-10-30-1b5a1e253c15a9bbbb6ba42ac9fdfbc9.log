@@ -1,0 +1,34 @@
+2022-10-30T02:17:38+00:00 CRITICAL Uncaught Error: Call to a member function do_action() on array in C:\xampp\htdocs\pharma\wp-includes\plugin.php:476
+Stack trace:
+#0 C:\xampp\htdocs\pharma\wp-includes\general-template.php(3042): do_action('wp_head')
+#1 C:\xampp\htdocs\pharma\wp-content\themes\Divi\includes\builder\frontend-builder\theme-builder\frontend-header-template.php(11): wp_head()
+#2 C:\xampp\htdocs\pharma\wp-content\themes\Divi\includes\builder\frontend-builder\theme-builder\frontend.php(216): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pharma\wp-content\themes\Divi\includes\builder\frontend-builder\theme-builder\frontend.php(247): et_theme_builder_frontend_override_partial('header', '', 'wp_head')
+#4 C:\xampp\htdocs\pharma\wp-includes\class-wp-hook.php(309): et_theme_builder_frontend_override_header(NULL)
+#5 C:\xampp\htdocs\pharma\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\pharma\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\pharma\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#8 C:\xampp\htdocs\pharma\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#9 C:\xampp\htdocs\pharma\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pharma\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\pharma\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown dans C:\xampp\htdocs\pharma\wp-includes\plugin.php à la ligne 476
+
+2022-10-30T02:17:52+00:00 CRITICAL Uncaught Error: Call to a member function do_action() on array in C:\xampp\htdocs\pharma\wp-includes\plugin.php:476
+Stack trace:
+#0 C:\xampp\htdocs\pharma\wp-includes\general-template.php(3042): do_action('wp_head')
+#1 C:\xampp\htdocs\pharma\wp-content\themes\Divi\includes\builder\frontend-builder\theme-builder\frontend-header-template.php(11): wp_head()
+#2 C:\xampp\htdocs\pharma\wp-content\themes\Divi\includes\builder\frontend-builder\theme-builder\frontend.php(216): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pharma\wp-content\themes\Divi\includes\builder\frontend-builder\theme-builder\frontend.php(247): et_theme_builder_frontend_override_partial('header', '', 'wp_head')
+#4 C:\xampp\htdocs\pharma\wp-includes\class-wp-hook.php(309): et_theme_builder_frontend_override_header(NULL)
+#5 C:\xampp\htdocs\pharma\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\pharma\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\pharma\wp-includes\general-template.php(38): do_action('get_header', NULL, Array)
+#8 C:\xampp\htdocs\pharma\wp-content\plugins\elementor\modules\page-templates\templates\header-footer.php(9): get_header()
+#9 C:\xampp\htdocs\pharma\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\pharma\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\pharma\index.php(17): require('C:\\xampp\\htdocs...')
+#12 {main}
+  thrown dans C:\xampp\htdocs\pharma\wp-includes\plugin.php à la ligne 476
+
